@@ -1,0 +1,387 @@
+.main-header {
+    margin-top: 53px;
+    position: relative;
+    
+    min-height: 500px;
+}
+
+.alto {
+    height: 400px;
+}
+
+
+.fondoAgua{
+    background: url(../img/background.jpg);
+    background-size: cover;
+}
+
+.fondopreferido{
+    background-image: url(../img/fondos/descarga.jpg);
+    background-size: cover;
+}
+
+.fondoproductos{
+    background-image: url(../img/Fondos/product.jpg);
+    background-size: cover;
+}
+
+.fondovalor{
+    background: url(../img/fondos/valor.jpg);
+    background-size: cover;
+}
+
+.tipoFuente1{
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.tipoFuente2{
+    font-family: 'Just Another Hand', cursive;
+}
+
+.tipoFuente3{
+    font-family: 'Dancing Script', cursive;
+}
+
+.tipoFuente4{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.colorteal{
+    color: teal;
+}
+
+.coloraqua{
+    color: aqua;
+}
+
+.colororange{
+   color: orangered;
+}
+
+.colorsalmon{
+    color: lightsalmon;
+}
+
+.colorsalmonn{
+   color: salmon;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px grey;
+    opacity: .9;
+    }
+
+.navbar .nav-item .nav-link{
+        color: teal;
+    }   
+
+
+.nombre{
+    font-size: 65px;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    animation-name: name;
+    animation-duration: 3s;
+    animation-iteration-count: inherit;
+    }
+
+@keyframes name {
+    75% {
+        font-size: 250%;
+        margin-left:  5%;
+        width: 150%;
+           }
+}
+
+.main-header img{
+    bottom: 25px;
+    animation-name: imglogo;
+    animation-duration: .7s; 
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes imglogo {
+    from{
+    opacity: 0;
+      }
+    to {
+    opacity: 1;
+      }
+      }
+
+.introducción{
+font-size: 48px;
+animation: movimiento2 10s;
+ }
+ 
+ @keyframes movimiento2{
+     from{
+         margin-left: 100%;
+     }
+     to{
+         margin-left: 10%;
+     }
+ }
+
+.containerproductos{
+ box-shadow: 2px 2px 5px grey;
+ opacity: .9;
+ }
+
+ .product{
+    font-size: 40px;
+}
+
+.titlesection{
+    font-size: 25px;
+     }
+
+.titlesection:hover{
+    color:aqua;
+}
+
+#presentacion{
+    padding: 20px;
+    min-height: 60px;
+    text-align: justify;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px grey;
+    opacity: .9;
+    position: relative;
+    overflow: hidden;
+}
+
+.line{
+    position: relative;
+    top: 50%;
+    width: 10em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 40px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;transform: translateY(-50%);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+} 
+
+.anim-typewriter {
+    animation: typewriter 4s steps(12) 1s 2 normal both,
+    blinkTextCursor 300ms steps(12) infinite normal;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 16em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
+
+
+.categoria{
+        color: rgb(255, 123, 71);
+        text-align: center;
+        position: relative;
+        font-size: 35px;
+        padding: 0;
+        vertical-align: middle;
+        background-color: lightpink;
+        background-size: cover;
+        box-shadow: 2px 2px 5px grey;
+        opacity: .9;
+}
+
+.carousel-item{
+    background-color: lightpink;
+    background-size: cover;
+    box-shadow: 2px 2px 5px grey;
+    opacity: .9;
+    }
+
+.titulocarrusel{ 
+    font-size: 50px;
+    text-align: middle;
+    justify-content: center;
+
+}
+
+.containervalores{
+    position: relative;
+    min-height: 250px;
+    width: 100%;
+    box-shadow: 2px 2px 5px grey;
+    opacity: .9;
+      }
+
+      .valor{
+       font-size: 22px;
+      }
+
+      .tvalor{
+        font-size: 22px;
+        animation-name: valores;
+        animation-duration: 9.s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes valores {
+        from{
+        opacity: 0;
+          }
+        to {
+        opacity: 1;
+          }
+          }
+
+      .valores{
+        font-size: 50px;
+        }
+   
+    .card-body{
+        bottom: 35px;
+        transition: 0.7s;
+         }
+
+    .card-body:hover h5{
+        background-color: lightpink;
+     }
+    .card-body:hover p{
+        background-color: lightpink;
+    }
+
+    .card-body{
+        background: url(./img/valor.jpg);
+        }
+
+#pedidos{
+     min-height: 60px;
+     text-align: justify;
+     font-size: 35px;
+     box-shadow: 2px 2px 5px grey;
+     opacity: .9;
+     position: relative;
+     overflow: hidden;
+     }   
+
+.imgpedidos{
+     border-radius: 15px;
+     animation-name: imgentregas;
+     animation-duration: .6s; 
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+           }
+
+#envios{
+    padding-left: 65px;
+    padding-right: 65px;
+    min-height: 60px;
+    text-align: center;
+    font-size: 35px;
+    opacity: .9;
+    position: relative;
+        }
+
+       
+.entregas{
+    font-size: 25px;  
+}
+
+.imgenvios{
+    border-radius: 15px;
+    animation-name: imgentregas;
+     animation-duration: .6s; 
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     }
+      
+    @keyframes imgentregas {
+        from{
+        opacity: 0;
+          }
+        to {
+        opacity: 1;
+          }
+          }
+
+.footer{
+    margin-left: 1px;
+    background-color: rgb(252, 177, 147);
+    box-shadow: 2px 2px 5px grey;
+    background-size: cover;
+    opacity: .9;
+    padding: 10px;
+    min-height: 60px;
+}
+
+.return{
+ font-size: 35px;
+}
+
+.return:hover{
+    color: rgb(235, 62, 62);
+}
+
+.text-uppercase{
+    font-size: 35px;
+}
+
+.lead{
+    font-size: 30px;
+}
+
+.imgfooter{
+    border-radius: 15%;
+    border-color: black;
+    background-image: black;
+}
+.footerlogo{
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+        }
+
+   .fondo{
+     background-color: lightsalmon;
+    }
+
+ 
+    .categoríaproductos{
+     font-size: 45px;
+     color: rgb(255, 123, 71);
+     text-align: center;
+     position: relative;
+     padding: 0;
+     vertical-align: middle;
+     background-color: lightpink;
+     background-size: cover;
+     height: 100px;
+     box-shadow: 2px 2px 5px grey;
+     opacity: .9;
+    }
+
+   .links{
+       font-size: 25px;
+       color: lightcoral;
+   }
+
+   .links:hover{
+       color: aqua;
+   }
